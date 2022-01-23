@@ -33,7 +33,7 @@ public class DatabaseLoader implements ApplicationRunner {
     public void run(ApplicationArguments args) throws Exception {
 
         authors.addAll(Arrays.asList(
-                new Author("sgulam", "Samdani", "Gulam", "passowrd"),
+                new Author("sholderness", "Sarah", "Holderness", "passowrd"),
                 new Author("tbell", "Tom","Bell","password"),
                 new Author("efisher","Eric","Fisher","password"),
                 new Author("csouza","Carlos","Souza","password")
